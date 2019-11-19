@@ -6,16 +6,20 @@
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"start": "tsc && node build/app.js",
-		"dev": "./node_modules/nodemon/bin/nodemon.js"
+		"dev": "./node_modules/nodemon/bin/nodemon.js",
+		"build": "tsc"
 	},
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
-		"chalk": "^2.4.2"
+		"chalk": "^2.4.2",
+		"immutable": "^4.0.0-rc.12",
+		"ramda": "^0.26.1"
 	},
 	"devDependencies": {
 		"@types/express": "^4.17.0",
+		"@types/ramda": "^0.26.33",
 		"nodemon": "^1.19.1",
 		"ts-node": "^8.3.0",
 		"typescript": "^3.5.3"

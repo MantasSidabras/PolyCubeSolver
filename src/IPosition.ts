@@ -1,4 +1,5 @@
 interface IPosition {
+	layer: number;
 	row: number;
 	col: number;
 }

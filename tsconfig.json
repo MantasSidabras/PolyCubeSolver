@@ -1,17 +1,12 @@
 {
-    "compilerOptions": {
-        "module": "commonjs",
-        "target": "es5",
-        "noImplicitAny": false,
-        "sourceMap": true,
-        "outDir": "build"
-    },
-    "exclude": [
-        "node_modules",
-        "**/*.spec.ts",
-        "**/*.test.ts"
-    ],
-    "include": [
-        "src/**/*.ts"
-    ]
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "es5",
+		"noImplicitAny": false,
+		"sourceMap": true,
+		"outDir": "build",
+		"downlevelIteration": true
+	},
+	"exclude": ["node_modules", "**/*.spec.ts", "**/*.test.ts"],
+	"include": ["src/**/*.ts"]
 }
